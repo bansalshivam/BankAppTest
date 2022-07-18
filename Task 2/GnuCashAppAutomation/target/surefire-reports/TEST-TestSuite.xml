@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="190.571" tests="13" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/shivambansal/Documents/Projects/GnuCashAppAutomation/target/test-classes:/Users/shivambansal/Documents/Projects/GnuCashAppAutomation/target/classes:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/shivambansal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/shivambansal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/shivambansal/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/shivambansal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/shivambansal/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/shivambansal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/shivambansal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/shivambansal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/shivambansal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/shivambansal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/shivambansal/.m2/repository/io/appium/java-client/7.4.1/java-client-7.4.1.jar:/Users/shivambansal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/shivambansal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/shivambansal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/shivambansal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/shivambansal/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/shivambansal/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/shivambansal/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/shivambansal/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/shivambansal/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/shivambansal/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/shivambansal/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-context/5.3.1/spring-context-5.3.1.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-aop/5.3.1/spring-aop-5.3.1.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-beans/5.3.1/spring-beans-5.3.1.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-core/5.3.1/spring-core-5.3.1.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-jcl/5.3.1/spring-jcl-5.3.1.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-expression/5.3.1/spring-expression-5.3.1.jar:/Users/shivambansal/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/shivambansal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/shivambansal/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/shivambansal/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/shivambansal/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/shivambansal/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/shivambansal/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/shivambansal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/shivambansal/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/shivambansal/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/shivambansal/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/shivambansal/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/shivambansal/.m2/repository/org/apache/poi/poi/5.0.0/poi-5.0.0.jar:/Users/shivambansal/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/shivambansal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/shivambansal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/shivambansal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/shivambansal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/shivambansal/.m2/repository/org/apache/poi/poi-ooxml/5.0.0/poi-ooxml-5.0.0.jar:/Users/shivambansal/.m2/repository/org/apache/poi/poi-ooxml-lite/5.0.0/poi-ooxml-lite-5.0.0.jar:/Users/shivambansal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/shivambansal/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/shivambansal/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar:/Users/shivambansal/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/Users/shivambansal/.m2/repository/org/apache/santuario/xmlsec/2.2.1/xmlsec-2.2.1.jar:/Users/shivambansal/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.2.1/woodstox-core-5.2.1.jar:/Users/shivambansal/.m2/repository/org/codehaus/woodstox/stax2-api/4.2/stax2-api-4.2.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-all/1.13/batik-all-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13.jar:/Users/shivambansal/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-codec/1.13/batik-codec-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13.jar:/Users/shivambansal/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/shivambansal/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-extension/1.13/batik-extension-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-gui-util/1.13/batik-gui-util-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-rasterizer-ext/1.13/batik-rasterizer-ext-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-rasterizer/1.13/batik-rasterizer-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-slideshow/1.13/batik-slideshow-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-squiggle-ext/1.13/batik-squiggle-ext-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-squiggle/1.13/batik-squiggle-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-svgbrowser/1.13/batik-svgbrowser-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-svggen/1.13/batik-svggen-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-svgpp/1.13/batik-svgpp-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-svgrasterizer/1.13/batik-svgrasterizer-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-swing/1.13/batik-swing-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-transcoder/1.13/batik-transcoder-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-ttf2svg/1.13/batik-ttf2svg-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13.jar:/Users/shivambansal/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/shivambansal/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/shivambansal/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/shivambansal/.m2/repository/org/apache/poi/poi-scratchpad/5.0.0/poi-scratchpad-5.0.0.jar:/Users/shivambansal/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/shivambansal/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/shivambansal/.m2/repository/org/apache/poi/ooxml-schemas/1.4/ooxml-schemas-1.4.jar:/Users/shivambansal/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/shivambansal/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/shivambansal/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/shivambansal/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar:/Users/shivambansal/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/shivambansal/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/shivambansal/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/shivambansal/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/shivambansal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/shivambansal/.m2/repository/com/codoid/products/fillo/1.21/fillo-1.21.jar:/Users/shivambansal/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/shivambansal/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/shivambansal/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/shivambansal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/shivambansal/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/shivambansal/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/shivambansal/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/shivambansal/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/shivambansal/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/shivambansal/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/shivambansal/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/shivambansal/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/shivambansal/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/shivambansal/Documents/Projects/GnuCashAppAutomation/target/surefire/surefirebooter4352159131182588574.jar /Users/shivambansal/Documents/Projects/GnuCashAppAutomation/target/surefire 2021-05-31T21-35-58_230-jvmRun1 surefire5865647241902256376tmp surefire_0728537271551030574tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/shivambansal/Documents/Projects/GnuCashAppAutomation/target/test-classes:/Users/shivambansal/Documents/Projects/GnuCashAppAutomation/target/classes:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/shivambansal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/shivambansal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/shivambansal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/shivambansal/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/shivambansal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/shivambansal/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/shivambansal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/shivambansal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/shivambansal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/shivambansal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/shivambansal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/shivambansal/.m2/repository/io/appium/java-client/7.4.1/java-client-7.4.1.jar:/Users/shivambansal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/shivambansal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/shivambansal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/shivambansal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/shivambansal/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/shivambansal/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/shivambansal/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/shivambansal/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/shivambansal/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/shivambansal/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/shivambansal/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-context/5.3.1/spring-context-5.3.1.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-aop/5.3.1/spring-aop-5.3.1.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-beans/5.3.1/spring-beans-5.3.1.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-core/5.3.1/spring-core-5.3.1.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-jcl/5.3.1/spring-jcl-5.3.1.jar:/Users/shivambansal/.m2/repository/org/springframework/spring-expression/5.3.1/spring-expression-5.3.1.jar:/Users/shivambansal/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/shivambansal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/shivambansal/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/shivambansal/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/shivambansal/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/shivambansal/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/shivambansal/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/shivambansal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/shivambansal/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/shivambansal/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/shivambansal/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/shivambansal/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/shivambansal/.m2/repository/org/apache/poi/poi/5.0.0/poi-5.0.0.jar:/Users/shivambansal/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/shivambansal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/shivambansal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/shivambansal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/shivambansal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/shivambansal/.m2/repository/org/apache/poi/poi-ooxml/5.0.0/poi-ooxml-5.0.0.jar:/Users/shivambansal/.m2/repository/org/apache/poi/poi-ooxml-lite/5.0.0/poi-ooxml-lite-5.0.0.jar:/Users/shivambansal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/shivambansal/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/shivambansal/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar:/Users/shivambansal/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/Users/shivambansal/.m2/repository/org/apache/santuario/xmlsec/2.2.1/xmlsec-2.2.1.jar:/Users/shivambansal/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.2.1/woodstox-core-5.2.1.jar:/Users/shivambansal/.m2/repository/org/codehaus/woodstox/stax2-api/4.2/stax2-api-4.2.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-all/1.13/batik-all-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13.jar:/Users/shivambansal/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-codec/1.13/batik-codec-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13.jar:/Users/shivambansal/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/shivambansal/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-extension/1.13/batik-extension-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-gui-util/1.13/batik-gui-util-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-rasterizer-ext/1.13/batik-rasterizer-ext-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-rasterizer/1.13/batik-rasterizer-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-slideshow/1.13/batik-slideshow-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-squiggle-ext/1.13/batik-squiggle-ext-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-squiggle/1.13/batik-squiggle-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-svgbrowser/1.13/batik-svgbrowser-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-svggen/1.13/batik-svggen-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-svgpp/1.13/batik-svgpp-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-svgrasterizer/1.13/batik-svgrasterizer-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-swing/1.13/batik-swing-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-transcoder/1.13/batik-transcoder-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-ttf2svg/1.13/batik-ttf2svg-1.13.jar:/Users/shivambansal/.m2/repository/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13.jar:/Users/shivambansal/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/shivambansal/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/shivambansal/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/shivambansal/.m2/repository/org/apache/poi/poi-scratchpad/5.0.0/poi-scratchpad-5.0.0.jar:/Users/shivambansal/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/shivambansal/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/shivambansal/.m2/repository/org/apache/poi/ooxml-schemas/1.4/ooxml-schemas-1.4.jar:/Users/shivambansal/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/shivambansal/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/shivambansal/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/shivambansal/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar:/Users/shivambansal/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/shivambansal/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/shivambansal/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/shivambansal/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/shivambansal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/shivambansal/.m2/repository/com/codoid/products/fillo/1.21/fillo-1.21.jar:/Users/shivambansal/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/shivambansal/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/shivambansal/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/shivambansal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/shivambansal/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/shivambansal/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/shivambansal/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/shivambansal/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/shivambansal/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/shivambansal/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/shivambansal/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/shivambansal/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/shivambansal/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/shivambansal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/shivambansal/Documents/Projects/GnuCashAppAutomation"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/shivambansal/Documents/Projects/GnuCashAppAutomation/target/surefire/surefirebooter4352159131182588574.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="user.name" value="shivambansal"/>
+    <property name="path.separator" value=":"/>
+    <property name="platform" value="android"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/shivambansal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/9m/d4mgflw96135b4r3ywyxqjs40000gn/T/"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="/Users/shivambansal/Documents/Projects/GnuCashAppAutomation"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/shivambansal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="/Users/shivambansal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Test1AsAUserIWantToCreateAccount" classname="com.gnucash.test.testcase.SetupAndAccountTests" time="4.468">
+    <system-out><![CDATA[...
+... TestNG 7.3.0 by CÃ©dric Beust (cedric@beust.com)
+...
+
+2021-05-31 21:36:04,730 INFO  - Intitializing common capabilities.
+sdk_gphone_arm64
+2021-05-31 21:36:04,734 INFO  - Platform is android, Intitializing android specific capabilities.
+2021-05-31 21:36:15,485 INFO  - Driver initialized, Application launch successful.
+2021-05-31 21:36:25,041 INFO  - Intitializing common capabilities.
+sdk_gphone_arm64
+2021-05-31 21:36:25,058 INFO  - Platform is android, Intitializing android specific capabilities.
+2021-05-31 21:36:31,741 INFO  - Driver initialized, Application launch successful.
+2021-05-31 21:36:31,808 INFO  - ******************************************************************************
+2021-05-31 21:36:31,808 INFO  - ----------------- Starting Test Case  :  Test1AsAUserIWantToCreateAccount
+2021-05-31 21:36:31,808 INFO  - ******************************************************************************
+]]></system-out>
+    <system-err><![CDATA[May 31, 2021 9:36:15 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+May 31, 2021 9:36:31 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Test2AsAUserIWantToEditAccount" classname="com.gnucash.test.testcase.SetupAndAccountTests" time="3.099">
+    <system-out><![CDATA[2021-05-31 21:36:36,284 INFO  - Success of test cases and its details are : Test1AsAUserIWantToCreateAccount
+2021-05-31 21:36:36,309 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:36,309 INFO  - ----------------- Ending Test Case    :  Test1AsAUserIWantToCreateAccount
+2021-05-31 21:36:36,309 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:36,447 DEBUG - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,460 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2021-05-31 21:36:36,465 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2021-05-31 21:36:36,466 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2021-05-31 21:36:36,469 DEBUG - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2021-05-31 21:36:36,590 DEBUG - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,592 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2021-05-31 21:36:36,592 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2021-05-31 21:36:36,593 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2021-05-31 21:36:36,593 DEBUG - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2021-05-31 21:36:36,742 DEBUG - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,748 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2021-05-31 21:36:36,748 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2021-05-31 21:36:36,749 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2021-05-31 21:36:36,749 DEBUG - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2021-05-31 21:36:36,769 DEBUG - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,774 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2021-05-31 21:36:36,775 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2021-05-31 21:36:36,775 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2021-05-31 21:36:36,775 DEBUG - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2021-05-31 21:36:36,777 DEBUG - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,778 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2021-05-31 21:36:36,778 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2021-05-31 21:36:36,778 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2021-05-31 21:36:36,778 DEBUG - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2021-05-31 21:36:36,780 DEBUG - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,781 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2021-05-31 21:36:36,781 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2021-05-31 21:36:36,781 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2021-05-31 21:36:36,781 DEBUG - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2021-05-31 21:36:36,791 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:36,791 DEBUG - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,792 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+2021-05-31 21:36:36,792 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2021-05-31 21:36:36,793 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2021-05-31 21:36:36,793 DEBUG - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2021-05-31 21:36:36,820 DEBUG - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,821 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2021-05-31 21:36:36,821 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2021-05-31 21:36:36,822 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2021-05-31 21:36:36,823 DEBUG - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2021-05-31 21:36:36,828 DEBUG - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,829 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2021-05-31 21:36:36,829 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2021-05-31 21:36:36,829 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2021-05-31 21:36:36,829 DEBUG - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2021-05-31 21:36:36,831 DEBUG - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,831 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2021-05-31 21:36:36,841 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2021-05-31 21:36:36,854 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2021-05-31 21:36:36,856 DEBUG - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2021-05-31 21:36:36,883 DEBUG - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,885 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2021-05-31 21:36:36,885 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2021-05-31 21:36:36,886 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2021-05-31 21:36:36,886 DEBUG - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2021-05-31 21:36:36,923 DEBUG - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,925 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2021-05-31 21:36:36,925 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2021-05-31 21:36:36,926 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2021-05-31 21:36:36,926 DEBUG - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2021-05-31 21:36:36,967 DEBUG - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,969 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2021-05-31 21:36:36,969 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2021-05-31 21:36:36,970 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2021-05-31 21:36:36,971 DEBUG - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2021-05-31 21:36:36,988 DEBUG - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,989 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+2021-05-31 21:36:36,990 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2021-05-31 21:36:36,990 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2021-05-31 21:36:36,990 DEBUG - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2021-05-31 21:36:36,996 DEBUG - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:36,998 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+2021-05-31 21:36:36,998 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2021-05-31 21:36:36,999 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2021-05-31 21:36:37,000 DEBUG - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2021-05-31 21:36:37,002 DEBUG - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:37,004 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+2021-05-31 21:36:37,004 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2021-05-31 21:36:37,004 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2021-05-31 21:36:37,004 DEBUG - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2021-05-31 21:36:37,006 DEBUG - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:37,006 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+2021-05-31 21:36:37,007 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2021-05-31 21:36:37,008 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2021-05-31 21:36:37,008 DEBUG - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2021-05-31 21:36:37,008 DEBUG - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:37,009 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+2021-05-31 21:36:37,009 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2021-05-31 21:36:37,009 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2021-05-31 21:36:37,009 DEBUG - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2021-05-31 21:36:37,010 DEBUG - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:37,011 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2021-05-31 21:36:37,011 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2021-05-31 21:36:37,011 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2021-05-31 21:36:37,011 DEBUG - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2021-05-31 21:36:37,128 DEBUG - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:37,130 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2021-05-31 21:36:37,131 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2021-05-31 21:36:37,131 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2021-05-31 21:36:37,132 DEBUG - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2021-05-31 21:36:37,150 DEBUG - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-05-31 21:36:37,152 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2021-05-31 21:36:37,152 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2021-05-31 21:36:37,153 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2021-05-31 21:36:37,153 DEBUG - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2021-05-31 21:36:37,175 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:37,177 INFO  - ----------------- Ending Test Case    :  Test1AsAUserIWantToCreateAccount
+2021-05-31 21:36:37,177 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:37,180 DEBUG - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,180 DEBUG - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,182 DEBUG - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,184 DEBUG - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,184 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,184 DEBUG - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,185 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,185 DEBUG - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,186 DEBUG - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,186 DEBUG - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,187 DEBUG - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,187 DEBUG - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,191 DEBUG - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,198 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,203 DEBUG - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,204 DEBUG - "spark/partials/category.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,204 DEBUG - "spark/partials/device.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,204 DEBUG - "spark/partials/author.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,204 DEBUG - "spark/partials/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,205 DEBUG - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,216 DEBUG - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,217 DEBUG - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:37,228 INFO  - ******************************************************************************
+2021-05-31 21:36:37,229 INFO  - ----------------- Starting Test Case  :  Test2AsAUserIWantToEditAccount
+2021-05-31 21:36:37,230 INFO  - ******************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="Test3AsAUserIWantToDeleteAccount" classname="com.gnucash.test.testcase.SetupAndAccountTests" time="3.466">
+    <system-out><![CDATA[2021-05-31 21:36:40,487 INFO  - Success of test cases and its details are : Test2AsAUserIWantToEditAccount
+2021-05-31 21:36:40,491 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:40,491 INFO  - ----------------- Ending Test Case    :  Test2AsAUserIWantToEditAccount
+2021-05-31 21:36:40,491 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:40,494 DEBUG - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,495 DEBUG - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,505 DEBUG - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,505 DEBUG - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,505 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,506 DEBUG - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,506 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,506 DEBUG - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,506 DEBUG - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,508 DEBUG - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,509 DEBUG - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,510 DEBUG - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,513 DEBUG - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,515 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,518 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,519 DEBUG - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,519 DEBUG - "spark/partials/category.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,519 DEBUG - "spark/partials/device.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,519 DEBUG - "spark/partials/author.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,519 DEBUG - "spark/partials/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,519 DEBUG - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,524 DEBUG - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,526 DEBUG - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,529 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:40,529 INFO  - ----------------- Ending Test Case    :  Test2AsAUserIWantToEditAccount
+2021-05-31 21:36:40,530 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:40,531 DEBUG - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,531 DEBUG - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,533 DEBUG - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,533 DEBUG - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,533 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,533 DEBUG - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,533 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,533 DEBUG - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,534 DEBUG - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,535 DEBUG - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,535 DEBUG - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,536 DEBUG - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,537 DEBUG - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,538 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,539 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,540 DEBUG - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,540 DEBUG - "spark/partials/category.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,540 DEBUG - "spark/partials/device.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,541 DEBUG - "spark/partials/author.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,541 DEBUG - "spark/partials/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,541 DEBUG - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,545 DEBUG - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,547 DEBUG - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:40,549 INFO  - ******************************************************************************
+2021-05-31 21:36:40,549 INFO  - ----------------- Starting Test Case  :  Test3AsAUserIWantToDeleteAccount
+2021-05-31 21:36:40,550 INFO  - ******************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="Test1AsAUserIWantToAddIncome" classname="com.gnucash.test.testcase.IncomeAndExpenseTests" time="8.539">
+    <system-out><![CDATA[2021-05-31 21:36:44,021 INFO  - Success of test cases and its details are : Test3AsAUserIWantToDeleteAccount
+2021-05-31 21:36:44,026 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:44,026 INFO  - ----------------- Ending Test Case    :  Test3AsAUserIWantToDeleteAccount
+2021-05-31 21:36:44,026 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:44,034 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2021-05-31 21:36:44,035 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2021-05-31 21:36:44,036 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2021-05-31 21:36:44,043 DEBUG - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl hasn't changed.
+2021-05-31 21:36:44,047 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2021-05-31 21:36:44,048 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2021-05-31 21:36:44,049 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2021-05-31 21:36:44,050 DEBUG - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl hasn't changed.
+2021-05-31 21:36:44,056 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2021-05-31 21:36:44,057 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2021-05-31 21:36:44,058 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2021-05-31 21:36:44,058 DEBUG - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl hasn't changed.
+2021-05-31 21:36:44,059 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2021-05-31 21:36:44,059 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2021-05-31 21:36:44,060 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2021-05-31 21:36:44,060 DEBUG - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl hasn't changed.
+2021-05-31 21:36:44,061 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2021-05-31 21:36:44,062 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2021-05-31 21:36:44,062 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2021-05-31 21:36:44,062 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl hasn't changed.
+2021-05-31 21:36:44,063 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2021-05-31 21:36:44,063 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2021-05-31 21:36:44,063 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2021-05-31 21:36:44,063 DEBUG - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl hasn't changed.
+2021-05-31 21:36:44,064 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,066 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+2021-05-31 21:36:44,067 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2021-05-31 21:36:44,067 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2021-05-31 21:36:44,067 DEBUG - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl hasn't changed.
+2021-05-31 21:36:44,069 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2021-05-31 21:36:44,069 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2021-05-31 21:36:44,070 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2021-05-31 21:36:44,070 DEBUG - "spark/partials/head.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl hasn't changed.
+2021-05-31 21:36:44,072 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2021-05-31 21:36:44,074 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2021-05-31 21:36:44,074 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2021-05-31 21:36:44,074 DEBUG - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl hasn't changed.
+2021-05-31 21:36:44,076 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2021-05-31 21:36:44,077 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2021-05-31 21:36:44,078 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2021-05-31 21:36:44,081 DEBUG - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl hasn't changed.
+2021-05-31 21:36:44,082 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2021-05-31 21:36:44,083 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2021-05-31 21:36:44,083 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2021-05-31 21:36:44,083 DEBUG - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl hasn't changed.
+2021-05-31 21:36:44,084 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2021-05-31 21:36:44,086 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2021-05-31 21:36:44,086 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2021-05-31 21:36:44,086 DEBUG - "spark/partials/test.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl hasn't changed.
+2021-05-31 21:36:44,088 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2021-05-31 21:36:44,088 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2021-05-31 21:36:44,089 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2021-05-31 21:36:44,089 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl hasn't changed.
+2021-05-31 21:36:44,091 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,093 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,093 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+2021-05-31 21:36:44,094 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2021-05-31 21:36:44,094 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2021-05-31 21:36:44,094 DEBUG - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl hasn't changed.
+2021-05-31 21:36:44,097 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+2021-05-31 21:36:44,098 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2021-05-31 21:36:44,098 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2021-05-31 21:36:44,098 DEBUG - "spark/partials/category.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl hasn't changed.
+2021-05-31 21:36:44,099 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+2021-05-31 21:36:44,099 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2021-05-31 21:36:44,100 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2021-05-31 21:36:44,100 DEBUG - "spark/partials/device.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl hasn't changed.
+2021-05-31 21:36:44,101 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+2021-05-31 21:36:44,101 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2021-05-31 21:36:44,101 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2021-05-31 21:36:44,102 DEBUG - "spark/partials/author.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl hasn't changed.
+2021-05-31 21:36:44,102 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+2021-05-31 21:36:44,103 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2021-05-31 21:36:44,103 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2021-05-31 21:36:44,103 DEBUG - "spark/partials/log.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl hasn't changed.
+2021-05-31 21:36:44,105 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2021-05-31 21:36:44,105 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2021-05-31 21:36:44,106 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2021-05-31 21:36:44,106 DEBUG - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl hasn't changed.
+2021-05-31 21:36:44,110 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2021-05-31 21:36:44,110 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2021-05-31 21:36:44,110 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2021-05-31 21:36:44,110 DEBUG - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl hasn't changed.
+2021-05-31 21:36:44,111 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2021-05-31 21:36:44,111 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2021-05-31 21:36:44,111 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2021-05-31 21:36:44,111 DEBUG - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl hasn't changed.
+2021-05-31 21:36:44,112 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:44,112 INFO  - ----------------- Ending Test Case    :  Test3AsAUserIWantToDeleteAccount
+2021-05-31 21:36:44,112 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:44,113 DEBUG - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,113 DEBUG - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,115 DEBUG - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,115 DEBUG - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,115 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,115 DEBUG - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,115 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,116 DEBUG - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,116 DEBUG - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,116 DEBUG - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,116 DEBUG - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,118 DEBUG - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,118 DEBUG - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,120 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,121 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,123 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,124 DEBUG - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,124 DEBUG - "spark/partials/category.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,124 DEBUG - "spark/partials/device.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,124 DEBUG - "spark/partials/author.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,124 DEBUG - "spark/partials/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,125 DEBUG - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,126 DEBUG - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,126 DEBUG - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:44,670 INFO  - Intitializing common capabilities.
+sdk_gphone_arm64
+2021-05-31 21:36:44,673 INFO  - Platform is android, Intitializing android specific capabilities.
+2021-05-31 21:36:51,172 INFO  - Driver initialized, Application launch successful.
+2021-05-31 21:36:51,190 INFO  - ******************************************************************************
+2021-05-31 21:36:51,192 INFO  - ----------------- Starting Test Case  :  Test1AsAUserIWantToAddIncome
+2021-05-31 21:36:51,192 INFO  - ******************************************************************************
+]]></system-out>
+    <system-err><![CDATA[May 31, 2021 9:36:51 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Test2AsAUserIWantToAddExpense" classname="com.gnucash.test.testcase.IncomeAndExpenseTests" time="7.434">
+    <failure message="expected:&lt;€[5]0.00&gt; but was:&lt;€[]0.00&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<€[5]0.00> but was:<€[]0.00>
+	at com.gnucash.test.testcase.IncomeAndExpenseTests.Test2AsAUserIWantToAddExpense(IncomeAndExpenseTests.java:38)
+]]></failure>
+    <system-out><![CDATA[2021-05-31 21:36:59,753 INFO  - Success of test cases and its details are : Test1AsAUserIWantToAddIncome
+2021-05-31 21:36:59,761 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:59,762 INFO  - ----------------- Ending Test Case    :  Test1AsAUserIWantToAddIncome
+2021-05-31 21:36:59,762 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:59,771 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2021-05-31 21:36:59,772 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2021-05-31 21:36:59,773 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2021-05-31 21:36:59,774 DEBUG - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl hasn't changed.
+2021-05-31 21:36:59,778 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2021-05-31 21:36:59,778 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2021-05-31 21:36:59,779 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2021-05-31 21:36:59,779 DEBUG - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl hasn't changed.
+2021-05-31 21:36:59,792 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2021-05-31 21:36:59,792 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2021-05-31 21:36:59,792 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2021-05-31 21:36:59,792 DEBUG - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl hasn't changed.
+2021-05-31 21:36:59,793 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2021-05-31 21:36:59,793 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2021-05-31 21:36:59,794 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2021-05-31 21:36:59,794 DEBUG - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl hasn't changed.
+2021-05-31 21:36:59,794 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2021-05-31 21:36:59,794 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2021-05-31 21:36:59,795 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2021-05-31 21:36:59,795 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl hasn't changed.
+2021-05-31 21:36:59,796 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2021-05-31 21:36:59,796 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2021-05-31 21:36:59,797 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2021-05-31 21:36:59,797 DEBUG - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl hasn't changed.
+2021-05-31 21:36:59,798 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,799 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+2021-05-31 21:36:59,799 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2021-05-31 21:36:59,799 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2021-05-31 21:36:59,799 DEBUG - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl hasn't changed.
+2021-05-31 21:36:59,800 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2021-05-31 21:36:59,800 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2021-05-31 21:36:59,801 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2021-05-31 21:36:59,801 DEBUG - "spark/partials/head.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl hasn't changed.
+2021-05-31 21:36:59,802 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2021-05-31 21:36:59,802 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2021-05-31 21:36:59,802 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2021-05-31 21:36:59,803 DEBUG - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl hasn't changed.
+2021-05-31 21:36:59,803 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2021-05-31 21:36:59,803 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2021-05-31 21:36:59,804 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2021-05-31 21:36:59,805 DEBUG - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl hasn't changed.
+2021-05-31 21:36:59,806 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2021-05-31 21:36:59,807 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2021-05-31 21:36:59,808 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2021-05-31 21:36:59,808 DEBUG - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl hasn't changed.
+2021-05-31 21:36:59,810 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2021-05-31 21:36:59,812 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2021-05-31 21:36:59,812 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2021-05-31 21:36:59,813 DEBUG - "spark/partials/test.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl hasn't changed.
+2021-05-31 21:36:59,816 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2021-05-31 21:36:59,818 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2021-05-31 21:36:59,819 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2021-05-31 21:36:59,819 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl hasn't changed.
+2021-05-31 21:36:59,820 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,822 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,824 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,826 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+2021-05-31 21:36:59,827 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2021-05-31 21:36:59,827 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2021-05-31 21:36:59,827 DEBUG - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl hasn't changed.
+2021-05-31 21:36:59,827 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+2021-05-31 21:36:59,828 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2021-05-31 21:36:59,828 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2021-05-31 21:36:59,828 DEBUG - "spark/partials/category.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl hasn't changed.
+2021-05-31 21:36:59,829 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+2021-05-31 21:36:59,829 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2021-05-31 21:36:59,829 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2021-05-31 21:36:59,829 DEBUG - "spark/partials/device.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl hasn't changed.
+2021-05-31 21:36:59,829 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+2021-05-31 21:36:59,830 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2021-05-31 21:36:59,830 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2021-05-31 21:36:59,830 DEBUG - "spark/partials/author.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl hasn't changed.
+2021-05-31 21:36:59,830 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+2021-05-31 21:36:59,831 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2021-05-31 21:36:59,831 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2021-05-31 21:36:59,831 DEBUG - "spark/partials/log.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl hasn't changed.
+2021-05-31 21:36:59,831 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2021-05-31 21:36:59,831 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2021-05-31 21:36:59,831 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2021-05-31 21:36:59,831 DEBUG - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl hasn't changed.
+2021-05-31 21:36:59,839 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2021-05-31 21:36:59,840 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2021-05-31 21:36:59,841 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2021-05-31 21:36:59,841 DEBUG - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl hasn't changed.
+2021-05-31 21:36:59,841 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2021-05-31 21:36:59,842 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2021-05-31 21:36:59,842 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2021-05-31 21:36:59,842 DEBUG - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl hasn't changed.
+2021-05-31 21:36:59,845 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:59,847 INFO  - ----------------- Ending Test Case    :  Test1AsAUserIWantToAddIncome
+2021-05-31 21:36:59,847 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:36:59,848 DEBUG - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,848 DEBUG - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,850 DEBUG - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,851 DEBUG - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,851 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,852 DEBUG - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,852 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,852 DEBUG - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,854 DEBUG - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,854 DEBUG - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,854 DEBUG - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,855 DEBUG - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,856 DEBUG - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,858 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,858 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,858 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,859 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,859 DEBUG - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,860 DEBUG - "spark/partials/category.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,860 DEBUG - "spark/partials/device.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,860 DEBUG - "spark/partials/author.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,861 DEBUG - "spark/partials/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,861 DEBUG - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,864 DEBUG - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,864 DEBUG - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:36:59,868 INFO  - ******************************************************************************
+2021-05-31 21:36:59,869 INFO  - ----------------- Starting Test Case  :  Test2AsAUserIWantToAddExpense
+2021-05-31 21:36:59,869 INFO  - ******************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="Test2AsAUserIWantToAddExpense" classname="com.gnucash.test.testcase.IncomeAndExpenseTests" time="7.441">
+    <failure message="Failure of test cases and its details are : Test2AsAUserIWantToAddExpense" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Failure of test cases and its details are : Test2AsAUserIWantToAddExpense
+]]></failure>
+    <system-out><![CDATA[2021-05-31 21:37:07,347 ERROR - ****************** Test Item Failed ******************
+]]></system-out>
+  </testcase>
+  <testcase name="Test1AsAUserIWantToAddAccountInFavourites" classname="com.gnucash.test.testcase.UsabilityTests" time="2.806">
+    <system-out><![CDATA[2021-05-31 21:37:07,362 ERROR - ****************** Test Item Failed ******************
+2021-05-31 21:37:07,369 INFO  - Intitializing common capabilities.
+sdk_gphone_arm64
+2021-05-31 21:37:07,373 INFO  - Platform is android, Intitializing android specific capabilities.
+2021-05-31 21:37:14,844 INFO  - Driver initialized, Application launch successful.
+2021-05-31 21:37:14,861 INFO  - ******************************************************************************
+2021-05-31 21:37:14,863 INFO  - ----------------- Starting Test Case  :  Test1AsAUserIWantToAddAccountInFavourites
+2021-05-31 21:37:14,863 INFO  - ******************************************************************************
+]]></system-out>
+    <system-err><![CDATA[Exception in thread "TestNG-test=Sanity-1" java.lang.AssertionError: Failure of test cases and its details are : Test2AsAUserIWantToAddExpense
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.gnucash.test.utility.LoggerUtility.reportFailureInHtml(LoggerUtility.java:216)
+	at com.gnucash.test.listeners.EventListener.onTestFailure(EventListener.java:37)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:220)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:832)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+May 31, 2021 9:37:14 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Test2AsAUserIWantToCheckRecentActivity" classname="com.gnucash.test.testcase.UsabilityTests" time="10.617">
+    <system-out><![CDATA[2021-05-31 21:37:17,651 INFO  - Success of test cases and its details are : Test1AsAUserIWantToAddAccountInFavourites
+2021-05-31 21:37:17,653 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:37:17,653 INFO  - ----------------- Ending Test Case    :  Test1AsAUserIWantToAddAccountInFavourites
+2021-05-31 21:37:17,654 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:37:17,675 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2021-05-31 21:37:17,675 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2021-05-31 21:37:17,677 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2021-05-31 21:37:17,677 DEBUG - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl hasn't changed.
+2021-05-31 21:37:17,680 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2021-05-31 21:37:17,680 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2021-05-31 21:37:17,681 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2021-05-31 21:37:17,681 DEBUG - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl hasn't changed.
+2021-05-31 21:37:17,689 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2021-05-31 21:37:17,690 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2021-05-31 21:37:17,690 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2021-05-31 21:37:17,690 DEBUG - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl hasn't changed.
+2021-05-31 21:37:17,691 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2021-05-31 21:37:17,691 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2021-05-31 21:37:17,691 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2021-05-31 21:37:17,692 DEBUG - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl hasn't changed.
+2021-05-31 21:37:17,693 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2021-05-31 21:37:17,693 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2021-05-31 21:37:17,693 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2021-05-31 21:37:17,693 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl hasn't changed.
+2021-05-31 21:37:17,694 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2021-05-31 21:37:17,694 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2021-05-31 21:37:17,694 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2021-05-31 21:37:17,694 DEBUG - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl hasn't changed.
+2021-05-31 21:37:17,694 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,695 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+2021-05-31 21:37:17,695 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2021-05-31 21:37:17,695 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2021-05-31 21:37:17,695 DEBUG - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl hasn't changed.
+2021-05-31 21:37:17,699 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2021-05-31 21:37:17,700 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2021-05-31 21:37:17,704 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2021-05-31 21:37:17,704 DEBUG - "spark/partials/head.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl hasn't changed.
+2021-05-31 21:37:17,706 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2021-05-31 21:37:17,706 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2021-05-31 21:37:17,707 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2021-05-31 21:37:17,707 DEBUG - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl hasn't changed.
+2021-05-31 21:37:17,708 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2021-05-31 21:37:17,708 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2021-05-31 21:37:17,709 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2021-05-31 21:37:17,709 DEBUG - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl hasn't changed.
+2021-05-31 21:37:17,710 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2021-05-31 21:37:17,711 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2021-05-31 21:37:17,711 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2021-05-31 21:37:17,711 DEBUG - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl hasn't changed.
+2021-05-31 21:37:17,713 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2021-05-31 21:37:17,713 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2021-05-31 21:37:17,713 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2021-05-31 21:37:17,713 DEBUG - "spark/partials/test.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl hasn't changed.
+2021-05-31 21:37:17,717 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2021-05-31 21:37:17,718 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2021-05-31 21:37:17,719 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2021-05-31 21:37:17,719 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl hasn't changed.
+2021-05-31 21:37:17,725 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,729 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,733 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,741 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,742 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,744 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+2021-05-31 21:37:17,745 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2021-05-31 21:37:17,747 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2021-05-31 21:37:17,747 DEBUG - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl hasn't changed.
+2021-05-31 21:37:17,750 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+2021-05-31 21:37:17,750 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2021-05-31 21:37:17,751 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2021-05-31 21:37:17,751 DEBUG - "spark/partials/category.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl hasn't changed.
+2021-05-31 21:37:17,751 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+2021-05-31 21:37:17,751 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2021-05-31 21:37:17,752 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2021-05-31 21:37:17,752 DEBUG - "spark/partials/device.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl hasn't changed.
+2021-05-31 21:37:17,752 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+2021-05-31 21:37:17,753 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2021-05-31 21:37:17,753 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2021-05-31 21:37:17,753 DEBUG - "spark/partials/author.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl hasn't changed.
+2021-05-31 21:37:17,754 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+2021-05-31 21:37:17,754 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2021-05-31 21:37:17,754 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2021-05-31 21:37:17,754 DEBUG - "spark/partials/log.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl hasn't changed.
+2021-05-31 21:37:17,754 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2021-05-31 21:37:17,754 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2021-05-31 21:37:17,755 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2021-05-31 21:37:17,755 DEBUG - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl hasn't changed.
+2021-05-31 21:37:17,759 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2021-05-31 21:37:17,759 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2021-05-31 21:37:17,759 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2021-05-31 21:37:17,759 DEBUG - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl hasn't changed.
+2021-05-31 21:37:17,760 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2021-05-31 21:37:17,760 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2021-05-31 21:37:17,761 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2021-05-31 21:37:17,761 DEBUG - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl hasn't changed.
+2021-05-31 21:37:17,772 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:37:17,772 INFO  - ----------------- Ending Test Case    :  Test1AsAUserIWantToAddAccountInFavourites
+2021-05-31 21:37:17,772 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:37:17,774 DEBUG - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,775 DEBUG - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,776 DEBUG - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,777 DEBUG - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,777 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,777 DEBUG - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,777 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,777 DEBUG - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,778 DEBUG - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,778 DEBUG - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,778 DEBUG - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,779 DEBUG - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,779 DEBUG - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,782 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,782 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,783 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,784 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,785 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,785 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,785 DEBUG - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,786 DEBUG - "spark/partials/category.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,786 DEBUG - "spark/partials/device.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,786 DEBUG - "spark/partials/author.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,787 DEBUG - "spark/partials/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,787 DEBUG - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,789 DEBUG - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,789 DEBUG - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:17,795 INFO  - ******************************************************************************
+2021-05-31 21:37:17,795 INFO  - ----------------- Starting Test Case  :  Test2AsAUserIWantToCheckRecentActivity
+2021-05-31 21:37:17,796 INFO  - ******************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="Test3AsAUserIWantToVlidateSearch" classname="com.gnucash.test.testcase.UsabilityTests" time="10.592">
+    <failure message="Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[@resource-id=&apos;org.gnucash.android:id/tab_layout&apos;]//android.support.v7.app.ActionBar.Tab[2]}) (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[@resource-id='org.gnucash.android:id/tab_layout']//android.support.v7.app.ActionBar.Tab[2]}) (tried for 10 second(s) with 500 milliseconds interval)
+	at com.gnucash.test.testcase.UsabilityTests.Test3AsAUserIWantToVlidateSearch(UsabilityTests.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //*[@resource-id='org.gnucash.android:id/tab_layout']//android.support.v7.app.ActionBar.Tab[2]})
+	at com.gnucash.test.testcase.UsabilityTests.Test3AsAUserIWantToVlidateSearch(UsabilityTests.java:43)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4e125e56 (tried for 1 second(s) with 500 milliseconds interval)
+	at com.gnucash.test.testcase.UsabilityTests.Test3AsAUserIWantToVlidateSearch(UsabilityTests.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //*[@resource-id='org.gnucash.android:id/tab_layout']//android.support.v7.app.ActionBar.Tab[2]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shivams-MacBook-Air.local', ip: '3ffe:501:ffff:100:94e7:deec:bb0e:e0f4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at com.gnucash.test.testcase.UsabilityTests.Test3AsAUserIWantToVlidateSearch(UsabilityTests.java:43)
+]]></failure>
+    <system-out><![CDATA[2021-05-31 21:37:28,446 INFO  - Success of test cases and its details are : Test2AsAUserIWantToCheckRecentActivity
+2021-05-31 21:37:28,461 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:37:28,461 INFO  - ----------------- Ending Test Case    :  Test2AsAUserIWantToCheckRecentActivity
+2021-05-31 21:37:28,461 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:37:28,476 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2021-05-31 21:37:28,477 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2021-05-31 21:37:28,480 DEBUG - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2021-05-31 21:37:28,481 DEBUG - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl hasn't changed.
+2021-05-31 21:37:28,487 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2021-05-31 21:37:28,488 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2021-05-31 21:37:28,489 DEBUG - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2021-05-31 21:37:28,489 DEBUG - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl hasn't changed.
+2021-05-31 21:37:28,497 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2021-05-31 21:37:28,498 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2021-05-31 21:37:28,499 DEBUG - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2021-05-31 21:37:28,499 DEBUG - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl hasn't changed.
+2021-05-31 21:37:28,501 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2021-05-31 21:37:28,501 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2021-05-31 21:37:28,502 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2021-05-31 21:37:28,502 DEBUG - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl hasn't changed.
+2021-05-31 21:37:28,503 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2021-05-31 21:37:28,503 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2021-05-31 21:37:28,503 DEBUG - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2021-05-31 21:37:28,503 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl hasn't changed.
+2021-05-31 21:37:28,504 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2021-05-31 21:37:28,505 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2021-05-31 21:37:28,505 DEBUG - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2021-05-31 21:37:28,505 DEBUG - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl hasn't changed.
+2021-05-31 21:37:28,505 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,505 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+2021-05-31 21:37:28,506 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2021-05-31 21:37:28,506 DEBUG - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2021-05-31 21:37:28,506 DEBUG - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl hasn't changed.
+2021-05-31 21:37:28,508 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2021-05-31 21:37:28,508 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2021-05-31 21:37:28,511 DEBUG - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2021-05-31 21:37:28,511 DEBUG - "spark/partials/head.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl hasn't changed.
+2021-05-31 21:37:28,515 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2021-05-31 21:37:28,516 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2021-05-31 21:37:28,518 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2021-05-31 21:37:28,522 DEBUG - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl hasn't changed.
+2021-05-31 21:37:28,524 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2021-05-31 21:37:28,525 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2021-05-31 21:37:28,527 DEBUG - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2021-05-31 21:37:28,528 DEBUG - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl hasn't changed.
+2021-05-31 21:37:28,529 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2021-05-31 21:37:28,529 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2021-05-31 21:37:28,529 DEBUG - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2021-05-31 21:37:28,529 DEBUG - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl hasn't changed.
+2021-05-31 21:37:28,531 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2021-05-31 21:37:28,531 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2021-05-31 21:37:28,531 DEBUG - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2021-05-31 21:37:28,531 DEBUG - "spark/partials/test.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl hasn't changed.
+2021-05-31 21:37:28,536 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2021-05-31 21:37:28,536 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2021-05-31 21:37:28,536 DEBUG - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2021-05-31 21:37:28,537 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl hasn't changed.
+2021-05-31 21:37:28,538 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,540 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,541 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,541 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,541 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,542 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,543 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+2021-05-31 21:37:28,544 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2021-05-31 21:37:28,544 DEBUG - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2021-05-31 21:37:28,544 DEBUG - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl hasn't changed.
+2021-05-31 21:37:28,544 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+2021-05-31 21:37:28,545 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2021-05-31 21:37:28,545 DEBUG - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2021-05-31 21:37:28,545 DEBUG - "spark/partials/category.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl hasn't changed.
+2021-05-31 21:37:28,545 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+2021-05-31 21:37:28,545 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2021-05-31 21:37:28,546 DEBUG - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2021-05-31 21:37:28,546 DEBUG - "spark/partials/device.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl hasn't changed.
+2021-05-31 21:37:28,546 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+2021-05-31 21:37:28,546 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2021-05-31 21:37:28,546 DEBUG - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2021-05-31 21:37:28,547 DEBUG - "spark/partials/author.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl hasn't changed.
+2021-05-31 21:37:28,547 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+2021-05-31 21:37:28,547 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2021-05-31 21:37:28,547 DEBUG - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2021-05-31 21:37:28,547 DEBUG - "spark/partials/log.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl hasn't changed.
+2021-05-31 21:37:28,548 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2021-05-31 21:37:28,548 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2021-05-31 21:37:28,548 DEBUG - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2021-05-31 21:37:28,548 DEBUG - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl hasn't changed.
+2021-05-31 21:37:28,551 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2021-05-31 21:37:28,552 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2021-05-31 21:37:28,552 DEBUG - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2021-05-31 21:37:28,552 DEBUG - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl hasn't changed.
+2021-05-31 21:37:28,553 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2021-05-31 21:37:28,553 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2021-05-31 21:37:28,553 DEBUG - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2021-05-31 21:37:28,553 DEBUG - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/Users/shivambansal/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl hasn't changed.
+2021-05-31 21:37:28,556 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:37:28,558 INFO  - ----------------- Ending Test Case    :  Test2AsAUserIWantToCheckRecentActivity
+2021-05-31 21:37:28,558 INFO  - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2021-05-31 21:37:28,559 DEBUG - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,559 DEBUG - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,560 DEBUG - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,560 DEBUG - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,560 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,560 DEBUG - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,560 DEBUG - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,560 DEBUG - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,560 DEBUG - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,560 DEBUG - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,560 DEBUG - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,560 DEBUG - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,560 DEBUG - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,561 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,562 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,562 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,562 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,563 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,563 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,563 DEBUG - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,563 DEBUG - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,563 DEBUG - "spark/partials/category.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,563 DEBUG - "spark/partials/device.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,563 DEBUG - "spark/partials/author.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,563 DEBUG - "spark/partials/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,563 DEBUG - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,566 DEBUG - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,566 DEBUG - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-05-31 21:37:28,568 INFO  - ******************************************************************************
+2021-05-31 21:37:28,568 INFO  - ----------------- Starting Test Case  :  Test3AsAUserIWantToVlidateSearch
+2021-05-31 21:37:28,568 INFO  - ******************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="Test3AsAUserIWantToVlidateSearch" classname="com.gnucash.test.testcase.UsabilityTests" time="10.593">
+    <failure message="Failure of test cases and its details are : Test3AsAUserIWantToVlidateSearch" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Failure of test cases and its details are : Test3AsAUserIWantToVlidateSearch
+]]></failure>
+    <system-out><![CDATA[2021-05-31 21:37:39,172 ERROR - ****************** Test Item Failed ******************
+]]></system-out>
+  </testcase>
+  <testcase name="Test1AsAUserIWantToViewPieChartReport" classname="com.gnucash.test.testcase.ReportsTests" time="12.7">
+    <failure message="Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[@text=&apos;Reports&apos;]}) (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[@text='Reports']}) (tried for 10 second(s) with 500 milliseconds interval)
+	at com.gnucash.test.testcase.ReportsTests.Test1AsAUserIWantToViewPieChartReport(ReportsTests.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //*[@text='Reports']})
+	at com.gnucash.test.testcase.ReportsTests.Test1AsAUserIWantToViewPieChartReport(ReportsTests.java:28)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2647e1b3 (tried for 1 second(s) with 500 milliseconds interval)
+	at com.gnucash.test.testcase.ReportsTests.Test1AsAUserIWantToViewPieChartReport(ReportsTests.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //*[@text='Reports']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shivams-MacBook-Air.local', ip: '3ffe:501:ffff:100:94e7:deec:bb0e:e0f4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at com.gnucash.test.testcase.ReportsTests.Test1AsAUserIWantToViewPieChartReport(ReportsTests.java:28)
+]]></failure>
+    <system-out><![CDATA[2021-05-31 21:37:39,176 ERROR - ****************** Test Item Failed ******************
+2021-05-31 21:37:39,591 INFO  - Intitializing common capabilities.
+sdk_gphone_arm64
+2021-05-31 21:37:39,597 INFO  - Platform is android, Intitializing android specific capabilities.
+2021-05-31 21:37:45,808 INFO  - Driver initialized, Application launch successful.
+2021-05-31 21:38:06,070 INFO  - ******************************************************************************
+2021-05-31 21:38:06,081 INFO  - ----------------- Starting Test Case  :  Test1AsAUserIWantToViewPieChartReport
+2021-05-31 21:38:06,081 INFO  - ******************************************************************************
+]]></system-out>
+    <system-err><![CDATA[Exception in thread "TestNG-test=Sanity-2" java.lang.AssertionError: Failure of test cases and its details are : Test3AsAUserIWantToVlidateSearch
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.gnucash.test.utility.LoggerUtility.reportFailureInHtml(LoggerUtility.java:216)
+	at com.gnucash.test.listeners.EventListener.onTestFailure(EventListener.java:37)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:220)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:832)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+May 31, 2021 9:37:45 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Test1AsAUserIWantToViewPieChartReport" classname="com.gnucash.test.testcase.ReportsTests" time="12.706">
+    <failure message="Failure of test cases and its details are : Test1AsAUserIWantToViewPieChartReport" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Failure of test cases and its details are : Test1AsAUserIWantToViewPieChartReport
+]]></failure>
+    <system-out><![CDATA[2021-05-31 21:38:18,785 ERROR - ****************** Test Item Failed ******************
+]]></system-out>
+  </testcase>
+  <testcase name="Test1AsAUserIwantToScheduleTransactions" classname="com.gnucash.test.testcase.SettingsTests" time="15.038">
+    <system-out><![CDATA[2021-05-31 21:38:18,797 ERROR - ****************** Test Item Failed ******************
+2021-05-31 21:38:18,810 INFO  - Intitializing common capabilities.
+sdk_gphone_arm64
+2021-05-31 21:38:18,819 INFO  - Platform is android, Intitializing android specific capabilities.
+2021-05-31 21:38:26,474 INFO  - Driver initialized, Application launch successful.
+2021-05-31 21:38:26,484 INFO  - ******************************************************************************
+2021-05-31 21:38:26,484 INFO  - ----------------- Starting Test Case  :  Test1AsAUserIwantToScheduleTransactions
+2021-05-31 21:38:26,484 INFO  - ******************************************************************************
+]]></system-out>
+    <system-err><![CDATA[Exception in thread "TestNG-test=Sanity-3" java.lang.AssertionError: Failure of test cases and its details are : Test1AsAUserIWantToViewPieChartReport
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.gnucash.test.utility.LoggerUtility.reportFailureInHtml(LoggerUtility.java:216)
+	at com.gnucash.test.listeners.EventListener.onTestFailure(EventListener.java:37)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:220)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:832)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+May 31, 2021 9:38:26 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

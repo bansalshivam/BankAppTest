@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="15" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity" duration-ms="137468" started-at="2021-05-31T21:36:24 IST" finished-at="2021-05-31T21:38:42 IST">
+    <groups>
+    </groups>
+    <test name="Sanity" duration-ms="137468" started-at="2021-05-31T21:36:24 IST" finished-at="2021-05-31T21:38:42 IST">
+      <class name="com.gnucash.test.testcase.UsabilityTests">
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.gnucash.test.testcase.UsabilityTests@799f10e1]" name="classSetUp" is-config="true" duration-ms="7490" started-at="2021-05-31T21:37:07 IST" finished-at="2021-05-31T21:37:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="Test1AsAUserIWantToAddAccountInFavourites()[pri:0, instance:com.gnucash.test.testcase.UsabilityTests@799f10e1]" name="Test1AsAUserIWantToAddAccountInFavourites" duration-ms="2790" started-at="2021-05-31T21:37:14 IST" finished-at="2021-05-31T21:37:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1AsAUserIWantToAddAccountInFavourites -->
+        <test-method status="PASS" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:com.gnucash.test.testcase.UsabilityTests@799f10e1]" name="methodTearDown" is-config="true" duration-ms="24" started-at="2021-05-31T21:37:17 IST" finished-at="2021-05-31T21:37:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1AsAUserIWantToAddAccountInFavourites status=SUCCESS method=UsabilityTests.Test1AsAUserIWantToAddAccountInFavourites()[pri:0, instance:com.gnucash.test.testcase.UsabilityTests@799f10e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="Test2AsAUserIWantToCheckRecentActivity()[pri:0, instance:com.gnucash.test.testcase.UsabilityTests@799f10e1]" name="Test2AsAUserIWantToCheckRecentActivity" duration-ms="10639" started-at="2021-05-31T21:37:17 IST" finished-at="2021-05-31T21:37:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2AsAUserIWantToCheckRecentActivity -->
+        <test-method status="PASS" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:com.gnucash.test.testcase.UsabilityTests@799f10e1]" name="methodTearDown" is-config="true" duration-ms="13" started-at="2021-05-31T21:37:28 IST" finished-at="2021-05-31T21:37:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2AsAUserIWantToCheckRecentActivity status=SUCCESS method=UsabilityTests.Test2AsAUserIWantToCheckRecentActivity()[pri:0, instance:com.gnucash.test.testcase.UsabilityTests@799f10e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.gnucash.test.testcase.UsabilityTests@799f10e1]" name="classTearDown" is-config="true" duration-ms="410" started-at="2021-05-31T21:37:39 IST" finished-at="2021-05-31T21:37:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- com.gnucash.test.testcase.UsabilityTests -->
+      <class name="com.gnucash.test.testcase.SetupAndAccountTests">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9]" name="suiteSetUp" is-config="true" duration-ms="19912" started-at="2021-05-31T21:36:04 IST" finished-at="2021-05-31T21:36:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9]" name="classSetUp" is-config="true" duration-ms="7089" started-at="2021-05-31T21:36:24 IST" finished-at="2021-05-31T21:36:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="Test1AsAUserIWantToCreateAccount()[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9]" name="Test1AsAUserIWantToCreateAccount" duration-ms="4468" started-at="2021-05-31T21:36:31 IST" finished-at="2021-05-31T21:36:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1AsAUserIWantToCreateAccount -->
+        <test-method status="PASS" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9]" name="methodTearDown" is-config="true" duration-ms="58" started-at="2021-05-31T21:36:37 IST" finished-at="2021-05-31T21:36:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1AsAUserIWantToCreateAccount status=SUCCESS method=SetupAndAccountTests.Test1AsAUserIWantToCreateAccount()[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="Test2AsAUserIWantToEditAccount()[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9]" name="Test2AsAUserIWantToEditAccount" duration-ms="3257" started-at="2021-05-31T21:36:37 IST" finished-at="2021-05-31T21:36:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2AsAUserIWantToEditAccount -->
+        <test-method status="PASS" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9]" name="methodTearDown" is-config="true" duration-ms="21" started-at="2021-05-31T21:36:40 IST" finished-at="2021-05-31T21:36:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2AsAUserIWantToEditAccount status=SUCCESS method=SetupAndAccountTests.Test2AsAUserIWantToEditAccount()[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="Test3AsAUserIWantToDeleteAccount()[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9]" name="Test3AsAUserIWantToDeleteAccount" duration-ms="3470" started-at="2021-05-31T21:36:40 IST" finished-at="2021-05-31T21:36:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3AsAUserIWantToDeleteAccount -->
+        <test-method status="PASS" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9]" name="methodTearDown" is-config="true" duration-ms="16" started-at="2021-05-31T21:36:44 IST" finished-at="2021-05-31T21:36:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test3AsAUserIWantToDeleteAccount status=SUCCESS method=SetupAndAccountTests.Test3AsAUserIWantToDeleteAccount()[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9]" name="classTearDown" is-config="true" duration-ms="535" started-at="2021-05-31T21:36:44 IST" finished-at="2021-05-31T21:36:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+        <test-method status="PASS" signature="commonSuiteTearDown()[pri:0, instance:com.gnucash.test.testcase.SetupAndAccountTests@689604d9]" name="commonSuiteTearDown" is-config="true" duration-ms="6792" started-at="2021-05-31T21:38:47 IST" finished-at="2021-05-31T21:38:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonSuiteTearDown -->
+      </class> <!-- com.gnucash.test.testcase.SetupAndAccountTests -->
+      <class name="com.gnucash.test.testcase.ReportsTests">
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.gnucash.test.testcase.ReportsTests@4c371370]" name="classSetUp" is-config="true" duration-ms="6224" started-at="2021-05-31T21:37:39 IST" finished-at="2021-05-31T21:37:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="methodSetUp()[pri:0, instance:com.gnucash.test.testcase.ReportsTests@4c371370]" name="methodSetUp" is-config="true" duration-ms="20246" started-at="2021-05-31T21:37:45 IST" finished-at="2021-05-31T21:38:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+      </class> <!-- com.gnucash.test.testcase.ReportsTests -->
+      <class name="com.gnucash.test.testcase.SettingsTests">
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.gnucash.test.testcase.SettingsTests@145f66e3]" name="classSetUp" is-config="true" duration-ms="7677" started-at="2021-05-31T21:38:18 IST" finished-at="2021-05-31T21:38:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="Test1AsAUserIwantToScheduleTransactions()[pri:0, instance:com.gnucash.test.testcase.SettingsTests@145f66e3]" name="Test1AsAUserIwantToScheduleTransactions" duration-ms="15032" started-at="2021-05-31T21:38:26 IST" finished-at="2021-05-31T21:38:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1AsAUserIwantToScheduleTransactions -->
+        <test-method status="PASS" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:com.gnucash.test.testcase.SettingsTests@145f66e3]" name="methodTearDown" is-config="true" duration-ms="27" started-at="2021-05-31T21:38:41 IST" finished-at="2021-05-31T21:38:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1AsAUserIwantToScheduleTransactions status=SUCCESS method=SettingsTests.Test1AsAUserIwantToScheduleTransactions()[pri:0, instance:com.gnucash.test.testcase.SettingsTests@145f66e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.gnucash.test.testcase.SettingsTests@145f66e3]" name="classTearDown" is-config="true" duration-ms="325" started-at="2021-05-31T21:38:41 IST" finished-at="2021-05-31T21:38:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- com.gnucash.test.testcase.SettingsTests -->
+      <class name="com.gnucash.test.testcase.IncomeAndExpenseTests">
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.gnucash.test.testcase.IncomeAndExpenseTests@18078bef]" name="classSetUp" is-config="true" duration-ms="6516" started-at="2021-05-31T21:36:44 IST" finished-at="2021-05-31T21:36:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="Test1AsAUserIWantToAddIncome()[pri:0, instance:com.gnucash.test.testcase.IncomeAndExpenseTests@18078bef]" name="Test1AsAUserIWantToAddIncome" duration-ms="8554" started-at="2021-05-31T21:36:51 IST" finished-at="2021-05-31T21:36:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1AsAUserIWantToAddIncome -->
+        <test-method status="PASS" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:com.gnucash.test.testcase.IncomeAndExpenseTests@18078bef]" name="methodTearDown" is-config="true" duration-ms="21" started-at="2021-05-31T21:36:59 IST" finished-at="2021-05-31T21:36:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1AsAUserIWantToAddIncome status=SUCCESS method=IncomeAndExpenseTests.Test1AsAUserIWantToAddIncome()[pri:0, instance:com.gnucash.test.testcase.IncomeAndExpenseTests@18078bef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- com.gnucash.test.testcase.IncomeAndExpenseTests -->
+    </test> <!-- Sanity -->
+  </suite> <!-- Sanity -->
+</testng-results>

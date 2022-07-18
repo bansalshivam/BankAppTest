@@ -1,0 +1,6 @@
+com/gnucash/test/testcase/SettingsTests.class
+com/gnucash/test/testbase/BaseTestCases.class
+com/gnucash/test/testcase/ReportsTests.class
+com/gnucash/test/testcase/IncomeAndExpenseTests.class
+com/gnucash/test/testcase/SetupAndAccountTests.class
+com/gnucash/test/testcase/UsabilityTests.class

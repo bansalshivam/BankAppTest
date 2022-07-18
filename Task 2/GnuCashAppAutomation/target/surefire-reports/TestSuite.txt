@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 190.571 s <<< FAILURE! - in TestSuite
+com.gnucash.test.testcase.IncomeAndExpenseTests.Test2AsAUserIWantToAddExpense  Time elapsed: 7.434 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<€[5]0.00> but was:<€[]0.00>
+	at com.gnucash.test.testcase.IncomeAndExpenseTests.Test2AsAUserIWantToAddExpense(IncomeAndExpenseTests.java:38)
+
+com.gnucash.test.testcase.IncomeAndExpenseTests.Test2AsAUserIWantToAddExpense  Time elapsed: 7.441 s  <<< FAILURE!
+java.lang.AssertionError: Failure of test cases and its details are : Test2AsAUserIWantToAddExpense
+
+com.gnucash.test.testcase.UsabilityTests.Test3AsAUserIWantToVlidateSearch  Time elapsed: 10.592 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[@resource-id='org.gnucash.android:id/tab_layout']//android.support.v7.app.ActionBar.Tab[2]}) (tried for 10 second(s) with 500 milliseconds interval)
+	at com.gnucash.test.testcase.UsabilityTests.Test3AsAUserIWantToVlidateSearch(UsabilityTests.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //*[@resource-id='org.gnucash.android:id/tab_layout']//android.support.v7.app.ActionBar.Tab[2]})
+	at com.gnucash.test.testcase.UsabilityTests.Test3AsAUserIWantToVlidateSearch(UsabilityTests.java:43)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4e125e56 (tried for 1 second(s) with 500 milliseconds interval)
+	at com.gnucash.test.testcase.UsabilityTests.Test3AsAUserIWantToVlidateSearch(UsabilityTests.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //*[@resource-id='org.gnucash.android:id/tab_layout']//android.support.v7.app.ActionBar.Tab[2]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shivams-MacBook-Air.local', ip: '3ffe:501:ffff:100:94e7:deec:bb0e:e0f4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at com.gnucash.test.testcase.UsabilityTests.Test3AsAUserIWantToVlidateSearch(UsabilityTests.java:43)
+
+com.gnucash.test.testcase.UsabilityTests.Test3AsAUserIWantToVlidateSearch  Time elapsed: 10.593 s  <<< FAILURE!
+java.lang.AssertionError: Failure of test cases and its details are : Test3AsAUserIWantToVlidateSearch
+
+com.gnucash.test.testcase.ReportsTests.Test1AsAUserIWantToViewPieChartReport  Time elapsed: 12.7 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[@text='Reports']}) (tried for 10 second(s) with 500 milliseconds interval)
+	at com.gnucash.test.testcase.ReportsTests.Test1AsAUserIWantToViewPieChartReport(ReportsTests.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //*[@text='Reports']})
+	at com.gnucash.test.testcase.ReportsTests.Test1AsAUserIWantToViewPieChartReport(ReportsTests.java:28)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2647e1b3 (tried for 1 second(s) with 500 milliseconds interval)
+	at com.gnucash.test.testcase.ReportsTests.Test1AsAUserIWantToViewPieChartReport(ReportsTests.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //*[@text='Reports']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shivams-MacBook-Air.local', ip: '3ffe:501:ffff:100:94e7:deec:bb0e:e0f4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at com.gnucash.test.testcase.ReportsTests.Test1AsAUserIWantToViewPieChartReport(ReportsTests.java:28)
+
+com.gnucash.test.testcase.ReportsTests.Test1AsAUserIWantToViewPieChartReport  Time elapsed: 12.706 s  <<< FAILURE!
+java.lang.AssertionError: Failure of test cases and its details are : Test1AsAUserIWantToViewPieChartReport
+

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Sanity">
+              <span class="suite-name border-passed">Sanity</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Sanity">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Sanity">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Sanity">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Sanity">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Sanity">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Sanity">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Sanity">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Sanity" class="hide-methods passed suite-Sanity"> (hide)</a> <!-- hide-methods passed suite-Sanity -->
+                      <a href="#" panel-name="suite-Sanity" class="show-methods passed suite-Sanity"> (show)</a> <!-- show-methods passed suite-Sanity -->
+                    </span>
+                    <div class="method-list-content passed suite-Sanity">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="com.gnucash.test.testcase.UsabilityTests" hash-for-method="Test1AsAUserIWantToAddAccountInFavourites">Test1AsAUserIWantToAddAccountInFavourites</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="com.gnucash.test.testcase.IncomeAndExpenseTests" hash-for-method="Test1AsAUserIWantToAddIncome">Test1AsAUserIWantToAddIncome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="com.gnucash.test.testcase.SetupAndAccountTests" hash-for-method="Test1AsAUserIWantToCreateAccount">Test1AsAUserIWantToCreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="com.gnucash.test.testcase.SettingsTests" hash-for-method="Test1AsAUserIwantToScheduleTransactions">Test1AsAUserIwantToScheduleTransactions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="com.gnucash.test.testcase.UsabilityTests" hash-for-method="Test2AsAUserIWantToCheckRecentActivity">Test2AsAUserIWantToCheckRecentActivity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="com.gnucash.test.testcase.SetupAndAccountTests" hash-for-method="Test2AsAUserIWantToEditAccount">Test2AsAUserIWantToEditAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="com.gnucash.test.testcase.SetupAndAccountTests" hash-for-method="Test3AsAUserIWantToDeleteAccount">Test3AsAUserIWantToDeleteAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Sanity -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Sanity" class="panel Sanity">
+          <div class="suite-Sanity-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gnucash.test.testcase.UsabilityTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1AsAUserIWantToAddAccountInFavourites">
+                  </a> <!-- Test1AsAUserIWantToAddAccountInFavourites -->
+                  <span class="method-name">Test1AsAUserIWantToAddAccountInFavourites</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test2AsAUserIWantToCheckRecentActivity">
+                  </a> <!-- Test2AsAUserIWantToCheckRecentActivity -->
+                  <span class="method-name">Test2AsAUserIWantToCheckRecentActivity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity-class-passed -->
+          <div class="suite-Sanity-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gnucash.test.testcase.IncomeAndExpenseTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1AsAUserIWantToAddIncome">
+                  </a> <!-- Test1AsAUserIWantToAddIncome -->
+                  <span class="method-name">Test1AsAUserIWantToAddIncome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity-class-passed -->
+          <div class="suite-Sanity-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gnucash.test.testcase.SettingsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1AsAUserIwantToScheduleTransactions">
+                  </a> <!-- Test1AsAUserIwantToScheduleTransactions -->
+                  <span class="method-name">Test1AsAUserIwantToScheduleTransactions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity-class-passed -->
+          <div class="suite-Sanity-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gnucash.test.testcase.SetupAndAccountTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1AsAUserIWantToCreateAccount">
+                  </a> <!-- Test1AsAUserIWantToCreateAccount -->
+                  <span class="method-name">Test1AsAUserIWantToCreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test2AsAUserIWantToEditAccount">
+                  </a> <!-- Test2AsAUserIWantToEditAccount -->
+                  <span class="method-name">Test2AsAUserIWantToEditAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test3AsAUserIWantToDeleteAccount">
+                  </a> <!-- Test3AsAUserIWantToDeleteAccount -->
+                  <span class="method-name">Test3AsAUserIWantToDeleteAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity-class-passed -->
+        </div> <!-- panel Sanity -->
+        <div panel-name="test-xml-Sanity" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/shivambansal/Documents/Projects/GnuCashAppAutomation/src/main/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Sanity&quot; parallel=&quot;classes&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.gnucash.test.listeners.EventListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Sanity&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gnucash.test.testcase.SetupAndAccountTests&quot;/&gt;
+      &lt;class name=&quot;com.gnucash.test.testcase.IncomeAndExpenseTests&quot;/&gt;
+      &lt;class name=&quot;com.gnucash.test.testcase.UsabilityTests&quot;/&gt;
+      &lt;class name=&quot;com.gnucash.test.testcase.ReportsTests&quot;/&gt;
+      &lt;class name=&quot;com.gnucash.test.testcase.SettingsTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity --&gt;
+&lt;/suite&gt; &lt;!-- Sanity --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Sanity" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Sanity</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sanity (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Sanity" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Sanity</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Sanity" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Sanity</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Sanity');
+function tableData_Sanity() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test1AsAUserIwantToScheduleTransactions')
+data.setCell(0, 2, 'com.gnucash.test.testcase.SettingsTests')
+data.setCell(0, 3, 15032);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test2AsAUserIWantToCheckRecentActivity')
+data.setCell(1, 2, 'com.gnucash.test.testcase.UsabilityTests')
+data.setCell(1, 3, 10639);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test1AsAUserIWantToAddIncome')
+data.setCell(2, 2, 'com.gnucash.test.testcase.IncomeAndExpenseTests')
+data.setCell(2, 3, 8554);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test1AsAUserIWantToCreateAccount')
+data.setCell(3, 2, 'com.gnucash.test.testcase.SetupAndAccountTests')
+data.setCell(3, 3, 4468);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test3AsAUserIWantToDeleteAccount')
+data.setCell(4, 2, 'com.gnucash.test.testcase.SetupAndAccountTests')
+data.setCell(4, 3, 3470);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test2AsAUserIWantToEditAccount')
+data.setCell(5, 2, 'com.gnucash.test.testcase.SetupAndAccountTests')
+data.setCell(5, 3, 3257);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test1AsAUserIWantToAddAccountInFavourites')
+data.setCell(6, 2, 'com.gnucash.test.testcase.UsabilityTests')
+data.setCell(6, 3, 2790);
+window.suiteTableData['Sanity']= { tableData: data, tableDiv: 'times-div-Sanity'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-Sanity">
+              </div> <!-- times-div-Sanity -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Sanity" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Sanity</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Sanity" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gnucash.test.testcase.UsabilityTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteSetUp</span>
+                <br/>
+                <span class="ignored-method-name">commonSuiteTearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gnucash.test.testcase.IncomeAndExpenseTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteSetUp</span>
+                <br/>
+                <span class="ignored-method-name">commonSuiteTearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gnucash.test.testcase.SettingsTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteSetUp</span>
+                <br/>
+                <span class="ignored-method-name">commonSuiteTearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gnucash.test.testcase.ReportsTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteSetUp</span>
+                <br/>
+                <span class="ignored-method-name">commonSuiteTearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Sanity" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gnucash.test.testcase.SetupAndAccountTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">classSetUp</span>
+                <span class="method-start">19959 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test1AsAUserIWantToCreateAccount</span>
+                <span class="method-start">27082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown([TestResult name=Test1AsAUserIWantToCreateAccount status=SUCCESS method=SetupAndAccountTests.Test1As...)</span>
+                <span class="method-start">32438 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Test2AsAUserIWantToEditAccount</span>
+                <span class="method-start">32505 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown([TestResult name=Test2AsAUserIWantToEditAccount status=SUCCESS method=SetupAndAccountTests.Test2AsAU...)</span>
+                <span class="method-start">35805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Test3AsAUserIWantToDeleteAccount</span>
+                <span class="method-start">35826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown([TestResult name=Test3AsAUserIWantToDeleteAccount status=SUCCESS method=SetupAndAccountTests.Test3As...)</span>
+                <span class="method-start">39389 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">classTearDown</span>
+                <span class="method-start">39407 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gnucash.test.testcase.IncomeAndExpenseTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classSetUp</span>
+                <span class="method-start">39946 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test1AsAUserIWantToAddIncome</span>
+                <span class="method-start">46467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown([TestResult name=Test1AsAUserIWantToAddIncome status=SUCCESS method=IncomeAndExpenseTests.Test1AsAUs...)</span>
+                <span class="method-start">55120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test2AsAUserIWantToAddExpense</span>
+                <span class="method-start">55143 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gnucash.test.testcase.UsabilityTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classSetUp</span>
+                <span class="method-start">62643 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test1AsAUserIWantToAddAccountInFavourites</span>
+                <span class="method-start">70137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown([TestResult name=Test1AsAUserIWantToAddAccountInFavourites status=SUCCESS method=UsabilityTests.Test...)</span>
+                <span class="method-start">73043 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Test2AsAUserIWantToCheckRecentActivity</span>
+                <span class="method-start">73071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown([TestResult name=Test2AsAUserIWantToCheckRecentActivity status=SUCCESS method=UsabilityTests.Test2As...)</span>
+                <span class="method-start">83831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test3AsAUserIWantToVlidateSearch</span>
+                <span class="method-start">83845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">classTearDown</span>
+                <span class="method-start">94454 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gnucash.test.testcase.ReportsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classSetUp</span>
+                <span class="method-start">94868 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp</span>
+                <span class="method-start">101094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test1AsAUserIWantToViewPieChartReport</span>
+                <span class="method-start">121342 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gnucash.test.testcase.SettingsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classSetUp</span>
+                <span class="method-start">134082 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test1AsAUserIwantToScheduleTransactions</span>
+                <span class="method-start">141760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown([TestResult name=Test1AsAUserIwantToScheduleTransactions status=SUCCESS method=SettingsTests.Test1As...)</span>
+                <span class="method-start">157046 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">classTearDown</span>
+                <span class="method-start">157073 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gnucash.test.testcase.SetupAndAccountTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">commonSuiteTearDown</span>
+                <span class="method-start">162544 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
